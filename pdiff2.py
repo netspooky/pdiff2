@@ -6,7 +6,7 @@ import string
 parser = argparse.ArgumentParser(description='pDiff2')
 parser.add_argument('-p', dest='inPcap', help='Pcap File to Analyze')
 parser.add_argument('-t', dest='inText', help='Text File to Analyze')
-parser.add_argument('-f', dest='pFilter', default="", help='BPF Filter to use')
+parser.add_argument('-f', dest='pFilter', default="", help='Display Filter to use')
 #parser.add_argument('-l', dest='dLayer', default="", help='Dissection Layer') # Unsupported as of now
 parser.add_argument('--packet-offset', dest='pOffset', type=lambda x: int(x,0), default=0, help='Offset in packet to diff')
 parser.add_argument('-v', dest='verbose', help='verbose output',action="store_true")
