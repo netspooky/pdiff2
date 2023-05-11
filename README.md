@@ -7,7 +7,7 @@ I switched to using the pyshark library as it's a wrapper for Wireshark/Tshark a
 > This tool is under active development, many features may change!
 
 Requirements
-- pyshark
+- [pyshark](https://github.com/KimiNewt/pyshark)
 
 ## Usage
 
