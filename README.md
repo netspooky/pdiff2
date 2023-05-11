@@ -29,7 +29,7 @@ options:
   -h, --help            show this help message and exit
   -p INPCAP             Pcap File to Analyze
   -t INTEXT             Text File to Analyze
-  -f PFILTER            BPF Filter to use
+  -f PFILTER            Display filter to use
   --packet-offset POFFSET
                         Offset in packet to diff
   -v                    verbose output
