@@ -61,6 +61,8 @@ There are a few things I want to finish:
 - [ ] Add nicer output in general - I was thinking of using that `rich` library instead of writing my own
 - [ ] Add Yara Support - I had another script that did frame aware yara signature scans on a pcap and alerted when the signature matched inside of a frame. I want to rework this so it works on both pcaps and text input.
 - [ ] Fix up the data structure that holds all the info. It's kind of messy.
+- [ ] Add more analysis functions
+- [ ] LiveDiff - Raw socket listener for diffing packets
 
 Others:
 
